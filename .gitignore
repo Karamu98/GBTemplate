@@ -6,6 +6,10 @@
 *.ko
 *.obj
 *.elf
+*.asm
+*.lst
+*.sym
+*.adb
 
 # Linker output
 *.ilk
@@ -35,12 +39,16 @@
 *.i*86
 *.x86_64
 *.hex
+*.gb
+*.ihx
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.noi
+*.cdb
 
 # Kernel Module Compile Results
 *.mod*

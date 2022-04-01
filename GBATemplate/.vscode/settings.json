@@ -1,0 +1,9 @@
+{
+	"proj_name": "GBATemplate",
+	"emu_path": "${workspaceFolder}\\deps\\Emulicious-with-Java",
+	"unix_shell_path": "wsl.exe",
+	"C_Cpp.default.includePath": 
+	[
+		"${workspaceFolder}/deps/gbdk/include"
+	]
+}
