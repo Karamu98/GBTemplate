@@ -21,13 +21,21 @@ void main()
 	
 	s8 num = 0;
 	char disp[4];
+	bool drawn = true;
 
 	while (1)
 	{
-		if(num > 150)
+		if(num > 50)
 		{
 			sprintf(disp, "%d", num);
 			printf("\n%s", disp);
+			drawn = false;
+		}
+		else if(!drawn)
+		{
+			set_bkg_data(0, 79u, dungeon_tiles);
+			set_bkg_tiles(0, 0, 32u, 32u, dungeon_mapPLN0);
+			drawn = true;
 		}
 
 		++num;
