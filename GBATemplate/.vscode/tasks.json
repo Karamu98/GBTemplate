@@ -1,6 +1,4 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -9,10 +7,9 @@
             "command": "make",
             "args": 
             [
-                // "lcc -debug" doesnt seem to work?
                 "DEBUG=1",
                 "PROJECTNAME=${config:proj_name}",
-                "LCCFLAGS = -debug -Wa-l -Wl-m -Wl-y -Wl-w -Wf--debug -Wf--noinduction -Wf--no-peep-return -Wf--no-peep -Wf--noloopreverse -Wf--noinvariant -Wf--nolabelopt -Wf--nogcse -Wf--nooverlay -Wf--nostdlibcall",
+                "LCCFLAGS = -debug",
             ],
             "options": 
             {
