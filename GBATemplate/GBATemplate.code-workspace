@@ -1,8 +1,0 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"extensions": {"recommendations": ["emulicious.emulicious-debugger", "ms-vscode.cpptools"]}
-}

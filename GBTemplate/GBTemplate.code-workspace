@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"emulicious.emulicious-debugger",
+			"ms-vscode.cpptools"
+		]
+	},
+	"settings": {
+		"files.associations": {
+			"stdint.h": "c",
+			"stdio.h": "c",
+			"gb.h": "c",
+			"stdbool.h": "c",
+			"state_machine.h": "c",
+			"stdlib.h": "c",
+			"gba_types.h": "c",
+			"centrifugetest.h": "c",
+			"dungeon_map.h": "c",
+			"dungeon_tiles.h": "c"
+		}
+	}
+}
