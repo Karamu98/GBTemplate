@@ -60,4 +60,4 @@ Mkfile.old
 dkms.conf
 
 # Exclude deps
-!/GBATemplate/deps/**
+!/GBTemplate/deps/**
